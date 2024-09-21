@@ -1,0 +1,19 @@
+.friendListWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vh;
+}
+
+.friendListList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.friendListItem {
+    border: 2px solid #040000;
+    border-radius: 10px;
+    padding: 20px;
+}
