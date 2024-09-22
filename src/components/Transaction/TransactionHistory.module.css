@@ -1,10 +1,37 @@
-.tableWraper {}
+.tableWraper {
+     display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  
+}
 
-.tableContent {}
+.tableContent {
+    
+  border: 1px solid black;
+  width: 900px;
+  align-items: center;
+}
 
-.tableHeader {}
+.tableHeader {
+    background-color: black;
+  color: lightgray;
+  font-size: 30px;
+  text-align: center;
+}
 
 
-.tableTitle {}
+.tableTitle {
+     display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
 
-.tabletElement {}
+.tabletElement {
+     display: flex;
+  justify-content: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 1px solid gray;
+}
+
+
